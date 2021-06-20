@@ -43,7 +43,8 @@ function App() {
       onChange={(newTodo)=>{
           setTodos(todos.map((todo)=>{
             if(todo.id === newTodo.id){
-              return newTodo;
+              return 
+              onewTodo;
             }
             return todo;
           }));
